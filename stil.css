@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: #1E4363;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid lightgray;
+    color: #FF8926;
+}
+
+.header img{
+    float: right;
+}
+
+.okvir2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Horizontalno centriranje */
+}
+
+.okvir2  img {
+    width: 100%;
+}
+
+.okvir2 div{
+
+    background: #BC2D19;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+.okvir3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #FF8926;
+}
+
+.okvir3 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+@media(min-width: 600px){
+    nav{
+        text-align: center;
+    }
+    nav a{
+        display: inline-block;
+        border-bottom: 0;
+    }
+
+    .okvir2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Horizontalno centriranje */
+        align-content: center; /* Vertikalno centriranje */
+    }
+    
+    .okvir2 div{
+        background: #BC2D19;
+        margin: 0;
+        padding: 1%;
+        width: 48%;
+    }
+
+    .okvir2 img {
+        width: 20%;
+        float: right;
+    }
+    
+}

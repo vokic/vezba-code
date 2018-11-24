@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.okvir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Horizontalno centriranje */
+    min-height: 800px;
+    align-content: center; /* Vertikalno centriranje */
+}
+
+.okvir div{
+width: 200px;
+height: 200px;
+background: crimson;
+border: 1px solid black;
+margin: 10px;
+}
+
+.okvir2 {
+    display: flex;
+}
+
+.okvir2 div{
+    height: 300px;
+    width: 50%;
+    background: lawngreen;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.okvir3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.okvir3 div{
+    height: 200px;
+    width: 200px;
+    background: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
